@@ -30,8 +30,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header />
-        <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start container">
-
+        <main className="container flex flex-col h-screen">
           {children}
         </main>
         <Footer />
